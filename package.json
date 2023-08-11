@@ -1,5 +1,5 @@
 {
-  "name": "react-grid-layout",
+  "name": "@sapter/react-grid-layout",
   "version": "1.3.4",
   "description": "A draggable and resizable grid layout with responsive breakpoints, for React.",
   "main": "index.js",
@@ -29,7 +29,8 @@
     "resize",
     "resizable",
     "fluid",
-    "responsive"
+    "responsive",
+    "rtl"
   ],
   "author": "Samuel Reed <samuel.trace.reed@gmail.com> (http://strml.net/)",
   "license": "MIT",
