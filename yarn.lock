@@ -1397,6 +1397,14 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@sapter/react-resizable@^3.0.5":
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@sapter/react-resizable/-/react-resizable-3.0.5.tgz#29beacf2a80a571ceca77ff07ba70e05402ffd48"
+  integrity sha512-FCk+/qxQvzSdpgO/CJzIJ3sFHpzSeYthpe0mwY0IR3qHdrWTY01RIb80QDTImjGDPiZs8Kwu7ArLwQQy2LqJXA==
+  dependencies:
+    prop-types "15.x"
+    react-draggable "^4.0.3"
+
 "@sinclair/typebox@^0.25.16":
   version "0.25.24"
   resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.25.24.tgz#8c7688559979f7079aacaf31aa881c3aa410b718"
@@ -5746,14 +5754,6 @@ react-proxy@^1.1.7:
   dependencies:
     lodash "^4.6.1"
     react-deep-force-update "^1.0.0"
-
-react-resizable@^3.0.4:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/react-resizable/-/react-resizable-3.0.4.tgz#aa20108eff28c52c6fddaa49abfbef8abf5e581b"
-  integrity sha512-StnwmiESiamNzdRHbSSvA65b0ZQJ7eVQpPusrSmcpyGKzC0gojhtO62xxH6YOBmepk9dQTBi9yxidL3W4s3EBA==
-  dependencies:
-    prop-types "15.x"
-    react-draggable "^4.0.3"
 
 react-test-renderer@^16.0.0-0:
   version "16.14.0"

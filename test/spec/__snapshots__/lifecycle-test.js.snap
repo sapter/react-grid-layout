@@ -46,6 +46,7 @@ exports[`Lifecycle tests <GridItem > Basic Render 1`] = `
       {
         "current": <div
           class="react-grid-item react-resizable-hide react-resizable"
+          direction="ltr"
           style="top: 0px; left: 0px; width: 10000px; height: 30000px; position: absolute;"
         >
           test child
@@ -64,6 +65,7 @@ exports[`Lifecycle tests <GridItem > Basic Render 1`] = `
     <Resizable
       axis="both"
       className="react-resizable-hide"
+      direction="ltr"
       draggableOpts={
         {
           "disabled": true,
@@ -105,6 +107,7 @@ exports[`Lifecycle tests <GridItem > Basic Render 1`] = `
     >
       <div
         className="react-grid-item react-resizable-hide react-resizable"
+        direction="ltr"
         onMouseDown={[Function]}
         onMouseUp={[Function]}
         onTouchEnd={[Function]}
@@ -334,6 +337,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 70px; position: absolute; transform: translate(10px,10px);"
             >
               <span
@@ -347,6 +351,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 70px; position: absolute; transform: translate(222px,10px);"
             >
               <span
@@ -360,6 +365,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 110px; position: absolute; transform: translate(433px,10px);"
             >
               <span
@@ -373,6 +379,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 110px; position: absolute; transform: translate(645px,10px);"
             >
               <span
@@ -386,6 +393,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 110px; position: absolute; transform: translate(857px,10px);"
             >
               <span
@@ -399,6 +407,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 150px; position: absolute; transform: translate(1068px,10px);"
             >
               <span
@@ -412,6 +421,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 150px; position: absolute; transform: translate(10px,90px);"
             >
               <span
@@ -425,6 +435,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 190px; position: absolute; transform: translate(222px,90px);"
             >
               <span
@@ -438,6 +449,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 190px; position: absolute; transform: translate(433px,130px);"
             >
               <span
@@ -451,6 +463,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 190px; position: absolute; transform: translate(645px,130px);"
             >
               <span
@@ -464,6 +477,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 70px; position: absolute; transform: translate(857px,130px);"
             >
               <span
@@ -477,6 +491,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 70px; position: absolute; transform: translate(1068px,170px);"
             >
               <span
@@ -490,6 +505,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 70px; position: absolute; transform: translate(10px,250px);"
             >
               <span
@@ -503,6 +519,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 110px; position: absolute; transform: translate(222px,290px);"
             >
               <span
@@ -516,6 +533,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 110px; position: absolute; transform: translate(433px,330px);"
             >
               <span
@@ -529,6 +547,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 110px; position: absolute; transform: translate(645px,330px);"
             >
               <span
@@ -542,6 +561,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 150px; position: absolute; transform: translate(857px,210px);"
             >
               <span
@@ -555,6 +575,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 150px; position: absolute; transform: translate(1068px,250px);"
             >
               <span
@@ -568,6 +589,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 190px; position: absolute; transform: translate(10px,330px);"
             >
               <span
@@ -581,6 +603,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 190px; position: absolute; transform: translate(222px,410px);"
             >
               <span
@@ -844,6 +867,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 70px; position: absolute; transform: translate(10px,10px);"
                 >
                   <span
@@ -865,6 +889,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -906,6 +931,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="0"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -1016,6 +1042,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 70px; position: absolute; transform: translate(222px,10px);"
                 >
                   <span
@@ -1037,6 +1064,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -1078,6 +1106,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="1"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -1188,6 +1217,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 110px; position: absolute; transform: translate(433px,10px);"
                 >
                   <span
@@ -1209,6 +1239,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -1250,6 +1281,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="2"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -1360,6 +1392,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 110px; position: absolute; transform: translate(645px,10px);"
                 >
                   <span
@@ -1381,6 +1414,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -1422,6 +1456,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="3"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -1532,6 +1567,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 110px; position: absolute; transform: translate(857px,10px);"
                 >
                   <span
@@ -1553,6 +1589,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -1594,6 +1631,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="4"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -1704,6 +1742,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 150px; position: absolute; transform: translate(1068px,10px);"
                 >
                   <span
@@ -1725,6 +1764,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -1766,6 +1806,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="5"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -1876,6 +1917,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 150px; position: absolute; transform: translate(10px,90px);"
                 >
                   <span
@@ -1897,6 +1939,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -1938,6 +1981,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="6"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -2048,6 +2092,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 190px; position: absolute; transform: translate(222px,90px);"
                 >
                   <span
@@ -2069,6 +2114,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -2110,6 +2156,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="7"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -2220,6 +2267,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 190px; position: absolute; transform: translate(433px,130px);"
                 >
                   <span
@@ -2241,6 +2289,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -2282,6 +2331,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="8"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -2392,6 +2442,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 190px; position: absolute; transform: translate(645px,130px);"
                 >
                   <span
@@ -2413,6 +2464,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -2454,6 +2506,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="9"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -2564,6 +2617,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 70px; position: absolute; transform: translate(857px,130px);"
                 >
                   <span
@@ -2585,6 +2639,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -2626,6 +2681,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="10"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -2736,6 +2792,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 70px; position: absolute; transform: translate(1068px,170px);"
                 >
                   <span
@@ -2757,6 +2814,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -2798,6 +2856,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="11"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -2908,6 +2967,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 70px; position: absolute; transform: translate(10px,250px);"
                 >
                   <span
@@ -2929,6 +2989,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -2970,6 +3031,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="12"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -3080,6 +3142,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 110px; position: absolute; transform: translate(222px,290px);"
                 >
                   <span
@@ -3101,6 +3164,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -3142,6 +3206,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="13"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -3252,6 +3317,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 110px; position: absolute; transform: translate(433px,330px);"
                 >
                   <span
@@ -3273,6 +3339,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -3314,6 +3381,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="14"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -3424,6 +3492,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 110px; position: absolute; transform: translate(645px,330px);"
                 >
                   <span
@@ -3445,6 +3514,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -3486,6 +3556,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="15"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -3596,6 +3667,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 150px; position: absolute; transform: translate(857px,210px);"
                 >
                   <span
@@ -3617,6 +3689,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -3658,6 +3731,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="16"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -3768,6 +3842,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 150px; position: absolute; transform: translate(1068px,250px);"
                 >
                   <span
@@ -3789,6 +3864,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -3830,6 +3906,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="17"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -3940,6 +4017,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 190px; position: absolute; transform: translate(10px,330px);"
                 >
                   <span
@@ -3961,6 +4039,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -4002,6 +4081,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="18"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -4112,6 +4192,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 190px; position: absolute; transform: translate(222px,410px);"
                 >
                   <span
@@ -4133,6 +4214,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -4174,6 +4256,7 @@ exports[`Lifecycle tests <ReactGridLayout> Basic Render 1`] = `
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="19"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -4416,6 +4499,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 70px; position: absolute; transform: translate(10px,10px);"
             >
               <span
@@ -4429,6 +4513,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 70px; position: absolute; transform: translate(222px,10px);"
             >
               <span
@@ -4442,6 +4527,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 110px; position: absolute; transform: translate(433px,10px);"
             >
               <span
@@ -4455,6 +4541,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 110px; position: absolute; transform: translate(645px,10px);"
             >
               <span
@@ -4468,6 +4555,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 110px; position: absolute; transform: translate(857px,10px);"
             >
               <span
@@ -4481,6 +4569,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 150px; position: absolute; transform: translate(1068px,10px);"
             >
               <span
@@ -4494,6 +4583,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 150px; position: absolute; transform: translate(10px,90px);"
             >
               <span
@@ -4507,6 +4597,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 190px; position: absolute; transform: translate(222px,90px);"
             >
               <span
@@ -4520,6 +4611,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 190px; position: absolute; transform: translate(433px,130px);"
             >
               <span
@@ -4533,6 +4625,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 190px; position: absolute; transform: translate(645px,130px);"
             >
               <span
@@ -4546,6 +4639,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 70px; position: absolute; transform: translate(857px,130px);"
             >
               <span
@@ -4559,6 +4653,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 70px; position: absolute; transform: translate(1068px,170px);"
             >
               <span
@@ -4572,6 +4667,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 70px; position: absolute; transform: translate(10px,250px);"
             >
               <span
@@ -4585,6 +4681,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 110px; position: absolute; transform: translate(222px,290px);"
             >
               <span
@@ -4598,6 +4695,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 110px; position: absolute; transform: translate(433px,330px);"
             >
               <span
@@ -4611,6 +4709,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 110px; position: absolute; transform: translate(645px,330px);"
             >
               <span
@@ -4624,6 +4723,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 150px; position: absolute; transform: translate(857px,210px);"
             >
               <span
@@ -4637,6 +4737,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 150px; position: absolute; transform: translate(1068px,250px);"
             >
               <span
@@ -4650,6 +4751,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 190px; position: absolute; transform: translate(10px,330px);"
             >
               <span
@@ -4663,6 +4765,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             </div>
             <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
+              direction="ltr"
               style="width: 202px; height: 190px; position: absolute; transform: translate(222px,410px);"
             >
               <span
@@ -4926,6 +5029,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 70px; position: absolute; transform: translate(10px,10px);"
                 >
                   <span
@@ -4947,6 +5051,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -4988,6 +5093,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="0"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -5098,6 +5204,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 70px; position: absolute; transform: translate(222px,10px);"
                 >
                   <span
@@ -5119,6 +5226,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -5160,6 +5268,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="1"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -5270,6 +5379,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 110px; position: absolute; transform: translate(433px,10px);"
                 >
                   <span
@@ -5291,6 +5401,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -5332,6 +5443,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="2"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -5442,6 +5554,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 110px; position: absolute; transform: translate(645px,10px);"
                 >
                   <span
@@ -5463,6 +5576,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -5504,6 +5618,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="3"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -5614,6 +5729,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 110px; position: absolute; transform: translate(857px,10px);"
                 >
                   <span
@@ -5635,6 +5751,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -5676,6 +5793,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="4"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -5786,6 +5904,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 150px; position: absolute; transform: translate(1068px,10px);"
                 >
                   <span
@@ -5807,6 +5926,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -5848,6 +5968,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="5"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -5958,6 +6079,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 150px; position: absolute; transform: translate(10px,90px);"
                 >
                   <span
@@ -5979,6 +6101,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -6020,6 +6143,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="6"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -6130,6 +6254,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 190px; position: absolute; transform: translate(222px,90px);"
                 >
                   <span
@@ -6151,6 +6276,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -6192,6 +6318,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="7"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -6302,6 +6429,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 190px; position: absolute; transform: translate(433px,130px);"
                 >
                   <span
@@ -6323,6 +6451,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -6364,6 +6493,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="8"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -6474,6 +6604,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 190px; position: absolute; transform: translate(645px,130px);"
                 >
                   <span
@@ -6495,6 +6626,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -6536,6 +6668,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="9"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -6646,6 +6779,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 70px; position: absolute; transform: translate(857px,130px);"
                 >
                   <span
@@ -6667,6 +6801,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -6708,6 +6843,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="10"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -6818,6 +6954,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 70px; position: absolute; transform: translate(1068px,170px);"
                 >
                   <span
@@ -6839,6 +6976,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -6880,6 +7018,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="11"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -6990,6 +7129,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 70px; position: absolute; transform: translate(10px,250px);"
                 >
                   <span
@@ -7011,6 +7151,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -7052,6 +7193,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="12"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -7162,6 +7304,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 110px; position: absolute; transform: translate(222px,290px);"
                 >
                   <span
@@ -7183,6 +7326,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -7224,6 +7368,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="13"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -7334,6 +7479,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 110px; position: absolute; transform: translate(433px,330px);"
                 >
                   <span
@@ -7355,6 +7501,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -7396,6 +7543,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="14"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -7506,6 +7654,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 110px; position: absolute; transform: translate(645px,330px);"
                 >
                   <span
@@ -7527,6 +7676,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -7568,6 +7718,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="15"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -7678,6 +7829,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 150px; position: absolute; transform: translate(857px,210px);"
                 >
                   <span
@@ -7699,6 +7851,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -7740,6 +7893,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="16"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -7850,6 +8004,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 150px; position: absolute; transform: translate(1068px,250px);"
                 >
                   <span
@@ -7871,6 +8026,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -7912,6 +8068,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="17"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -8022,6 +8179,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 190px; position: absolute; transform: translate(10px,330px);"
                 >
                   <span
@@ -8043,6 +8201,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -8084,6 +8243,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="18"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -8194,6 +8354,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
               {
                 "current": <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 190px; position: absolute; transform: translate(222px,410px);"
                 >
                   <span
@@ -8215,6 +8376,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
           >
             <Resizable
               axis="both"
+              direction="ltr"
               draggableOpts={
                 {
                   "disabled": false,
@@ -8256,6 +8418,7 @@ exports[`Lifecycle tests <ReactGridLayout> WidthProvider Renders with WidthProvi
             >
               <div
                 className="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 key="19"
                 onMouseDown={[Function]}
                 onMouseUp={[Function]}
@@ -8604,6 +8767,7 @@ exports[`Lifecycle tests <ReactGridLayout> data-grid Creates layout based on pro
             "current": <div
               class="react-grid-item static cssTransforms react-resizable-hide react-resizable"
               data-grid="[object Object]"
+              direction="ltr"
               style="width: 89px; height: 70px; position: absolute; transform: translate(10px,10px);"
             >
               a
@@ -8622,6 +8786,7 @@ exports[`Lifecycle tests <ReactGridLayout> data-grid Creates layout based on pro
         <Resizable
           axis="both"
           className="react-resizable-hide"
+          direction="ltr"
           draggableOpts={
             {
               "disabled": true,
@@ -8672,6 +8837,7 @@ exports[`Lifecycle tests <ReactGridLayout> data-grid Creates layout based on pro
                 "y": 0,
               }
             }
+            direction="ltr"
             key="a"
             onMouseDown={[Function]}
             onMouseUp={[Function]}
@@ -8779,6 +8945,7 @@ exports[`Lifecycle tests <ReactGridLayout> data-grid Creates layout based on pro
             "current": <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
               data-grid="[object Object]"
+              direction="ltr"
               style="width: 288px; height: 70px; position: absolute; transform: translate(109px,10px);"
             >
               b
@@ -8796,6 +8963,7 @@ exports[`Lifecycle tests <ReactGridLayout> data-grid Creates layout based on pro
       >
         <Resizable
           axis="both"
+          direction="ltr"
           draggableOpts={
             {
               "disabled": false,
@@ -8847,6 +9015,7 @@ exports[`Lifecycle tests <ReactGridLayout> data-grid Creates layout based on pro
                 "y": 0,
               }
             }
+            direction="ltr"
             key="b"
             onMouseDown={[Function]}
             onMouseUp={[Function]}
@@ -8954,6 +9123,7 @@ exports[`Lifecycle tests <ReactGridLayout> data-grid Creates layout based on pro
             "current": <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
               data-grid="[object Object]"
+              direction="ltr"
               style="width: 89px; height: 70px; position: absolute; transform: translate(407px,10px);"
             >
               c
@@ -8971,6 +9141,7 @@ exports[`Lifecycle tests <ReactGridLayout> data-grid Creates layout based on pro
       >
         <Resizable
           axis="both"
+          direction="ltr"
           draggableOpts={
             {
               "disabled": false,
@@ -9020,6 +9191,7 @@ exports[`Lifecycle tests <ReactGridLayout> data-grid Creates layout based on pro
                 "y": 0,
               }
             }
+            direction="ltr"
             key="c"
             onMouseDown={[Function]}
             onMouseUp={[Function]}
@@ -9194,6 +9366,7 @@ exports[`Lifecycle tests <ReactGridLayout> data-grid Null items in list 1`] = `
             "current": <div
               class="react-grid-item static cssTransforms react-resizable-hide react-resizable"
               data-grid="[object Object]"
+              direction="ltr"
               style="width: 89px; height: 70px; position: absolute; transform: translate(10px,10px);"
             >
               a
@@ -9212,6 +9385,7 @@ exports[`Lifecycle tests <ReactGridLayout> data-grid Null items in list 1`] = `
         <Resizable
           axis="both"
           className="react-resizable-hide"
+          direction="ltr"
           draggableOpts={
             {
               "disabled": true,
@@ -9262,6 +9436,7 @@ exports[`Lifecycle tests <ReactGridLayout> data-grid Null items in list 1`] = `
                 "y": 0,
               }
             }
+            direction="ltr"
             key="a"
             onMouseDown={[Function]}
             onMouseUp={[Function]}
@@ -9369,6 +9544,7 @@ exports[`Lifecycle tests <ReactGridLayout> data-grid Null items in list 1`] = `
             "current": <div
               class="react-grid-item react-draggable cssTransforms react-resizable"
               data-grid="[object Object]"
+              direction="ltr"
               style="width: 89px; height: 70px; position: absolute; transform: translate(407px,10px);"
             >
               c
@@ -9386,6 +9562,7 @@ exports[`Lifecycle tests <ReactGridLayout> data-grid Null items in list 1`] = `
       >
         <Resizable
           axis="both"
+          direction="ltr"
           draggableOpts={
             {
               "disabled": false,
@@ -9435,6 +9612,7 @@ exports[`Lifecycle tests <ReactGridLayout> data-grid Null items in list 1`] = `
                 "y": 0,
               }
             }
+            direction="ltr"
             key="c"
             onMouseDown={[Function]}
             onMouseUp={[Function]}
@@ -9789,6 +9967,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
             >
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 70px; position: absolute; transform: translate(222px,10px);"
               >
                 <span
@@ -9802,6 +9981,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 110px; position: absolute; transform: translate(645px,10px);"
               >
                 <span
@@ -9815,6 +9995,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 150px; position: absolute; transform: translate(857px,10px);"
               >
                 <span
@@ -9828,6 +10009,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 190px; position: absolute; transform: translate(10px,10px);"
               >
                 <span
@@ -9841,6 +10023,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 70px; position: absolute; transform: translate(433px,10px);"
               >
                 <span
@@ -9854,6 +10037,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 110px; position: absolute; transform: translate(645px,130px);"
               >
                 <span
@@ -9867,6 +10051,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 190px; position: absolute; transform: translate(1068px,10px);"
               >
                 <span
@@ -9880,6 +10065,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 70px; position: absolute; transform: translate(222px,90px);"
               >
                 <span
@@ -9893,6 +10079,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 110px; position: absolute; transform: translate(433px,90px);"
               >
                 <span
@@ -9906,6 +10093,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 150px; position: absolute; transform: translate(857px,170px);"
               >
                 <span
@@ -9919,6 +10107,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item static static cssTransforms react-resizable-hide react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 190px; position: absolute; transform: translate(1068px,410px);"
               >
                 <span
@@ -9934,6 +10123,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 70px; position: absolute; transform: translate(222px,170px);"
               >
                 <span
@@ -9947,6 +10137,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 110px; position: absolute; transform: translate(645px,250px);"
               >
                 <span
@@ -9960,6 +10151,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 150px; position: absolute; transform: translate(857px,330px);"
               >
                 <span
@@ -9973,6 +10165,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 190px; position: absolute; transform: translate(10px,210px);"
               >
                 <span
@@ -9986,6 +10179,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 70px; position: absolute; transform: translate(433px,210px);"
               >
                 <span
@@ -9999,6 +10193,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 110px; position: absolute; transform: translate(645px,370px);"
               >
                 <span
@@ -10012,6 +10207,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 190px; position: absolute; transform: translate(1068px,810px);"
               >
                 <span
@@ -10025,6 +10221,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 70px; position: absolute; transform: translate(222px,250px);"
               >
                 <span
@@ -10038,6 +10235,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 110px; position: absolute; transform: translate(433px,290px);"
               >
                 <span
@@ -10051,6 +10249,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 150px; position: absolute; transform: translate(857px,490px);"
               >
                 <span
@@ -10064,6 +10263,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item static static cssTransforms react-resizable-hide react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 190px; position: absolute; transform: translate(1068px,610px);"
               >
                 <span
@@ -10079,6 +10279,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 70px; position: absolute; transform: translate(222px,330px);"
               >
                 <span
@@ -10092,6 +10293,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 110px; position: absolute; transform: translate(645px,490px);"
               >
                 <span
@@ -10105,6 +10307,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               </div>
               <div
                 class="react-grid-item react-draggable cssTransforms react-resizable"
+                direction="ltr"
                 style="width: 202px; height: 150px; position: absolute; transform: translate(857px,650px);"
               >
                 <span
@@ -10364,6 +10567,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 70px; position: absolute; transform: translate(222px,10px);"
                 >
                   <span
@@ -10377,6 +10581,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 110px; position: absolute; transform: translate(645px,10px);"
                 >
                   <span
@@ -10390,6 +10595,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 150px; position: absolute; transform: translate(857px,10px);"
                 >
                   <span
@@ -10403,6 +10609,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 190px; position: absolute; transform: translate(10px,10px);"
                 >
                   <span
@@ -10416,6 +10623,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 70px; position: absolute; transform: translate(433px,10px);"
                 >
                   <span
@@ -10429,6 +10637,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 110px; position: absolute; transform: translate(645px,130px);"
                 >
                   <span
@@ -10442,6 +10651,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 190px; position: absolute; transform: translate(1068px,10px);"
                 >
                   <span
@@ -10455,6 +10665,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 70px; position: absolute; transform: translate(222px,90px);"
                 >
                   <span
@@ -10468,6 +10679,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 110px; position: absolute; transform: translate(433px,90px);"
                 >
                   <span
@@ -10481,6 +10693,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 150px; position: absolute; transform: translate(857px,170px);"
                 >
                   <span
@@ -10494,6 +10707,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item static static cssTransforms react-resizable-hide react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 190px; position: absolute; transform: translate(1068px,410px);"
                 >
                   <span
@@ -10509,6 +10723,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 70px; position: absolute; transform: translate(222px,170px);"
                 >
                   <span
@@ -10522,6 +10737,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 110px; position: absolute; transform: translate(645px,250px);"
                 >
                   <span
@@ -10535,6 +10751,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 150px; position: absolute; transform: translate(857px,330px);"
                 >
                   <span
@@ -10548,6 +10765,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 190px; position: absolute; transform: translate(10px,210px);"
                 >
                   <span
@@ -10561,6 +10779,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 70px; position: absolute; transform: translate(433px,210px);"
                 >
                   <span
@@ -10574,6 +10793,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 110px; position: absolute; transform: translate(645px,370px);"
                 >
                   <span
@@ -10587,6 +10807,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 190px; position: absolute; transform: translate(1068px,810px);"
                 >
                   <span
@@ -10600,6 +10821,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 70px; position: absolute; transform: translate(222px,250px);"
                 >
                   <span
@@ -10613,6 +10835,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 110px; position: absolute; transform: translate(433px,290px);"
                 >
                   <span
@@ -10626,6 +10849,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 150px; position: absolute; transform: translate(857px,490px);"
                 >
                   <span
@@ -10639,6 +10863,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item static static cssTransforms react-resizable-hide react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 190px; position: absolute; transform: translate(1068px,610px);"
                 >
                   <span
@@ -10654,6 +10879,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 70px; position: absolute; transform: translate(222px,330px);"
                 >
                   <span
@@ -10667,6 +10893,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 110px; position: absolute; transform: translate(645px,490px);"
                 >
                   <span
@@ -10680,6 +10907,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 </div>
                 <div
                   class="react-grid-item react-draggable cssTransforms react-resizable"
+                  direction="ltr"
                   style="width: 202px; height: 150px; position: absolute; transform: translate(857px,650px);"
                 >
                   <span
@@ -11227,6 +11455,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 70px; position: absolute; transform: translate(222px,10px);"
                     >
                       <span
@@ -11248,6 +11477,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -11289,6 +11519,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="0"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -11399,6 +11630,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 110px; position: absolute; transform: translate(645px,10px);"
                     >
                       <span
@@ -11420,6 +11652,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -11461,6 +11694,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="1"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -11571,6 +11805,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 150px; position: absolute; transform: translate(857px,10px);"
                     >
                       <span
@@ -11592,6 +11827,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -11633,6 +11869,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="2"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -11743,6 +11980,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 190px; position: absolute; transform: translate(10px,10px);"
                     >
                       <span
@@ -11764,6 +12002,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -11805,6 +12044,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="3"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -11915,6 +12155,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 70px; position: absolute; transform: translate(433px,10px);"
                     >
                       <span
@@ -11936,6 +12177,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -11977,6 +12219,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="4"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -12087,6 +12330,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 110px; position: absolute; transform: translate(645px,130px);"
                     >
                       <span
@@ -12108,6 +12352,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -12149,6 +12394,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="5"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -12259,6 +12505,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 190px; position: absolute; transform: translate(1068px,10px);"
                     >
                       <span
@@ -12280,6 +12527,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -12321,6 +12569,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="6"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -12431,6 +12680,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 70px; position: absolute; transform: translate(222px,90px);"
                     >
                       <span
@@ -12452,6 +12702,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -12493,6 +12744,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="7"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -12603,6 +12855,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 110px; position: absolute; transform: translate(433px,90px);"
                     >
                       <span
@@ -12624,6 +12877,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -12665,6 +12919,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="8"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -12775,6 +13030,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 150px; position: absolute; transform: translate(857px,170px);"
                     >
                       <span
@@ -12796,6 +13052,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -12837,6 +13094,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="9"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -12947,6 +13205,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item static static cssTransforms react-resizable-hide react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 190px; position: absolute; transform: translate(1068px,410px);"
                     >
                       <span
@@ -12971,6 +13230,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 <Resizable
                   axis="both"
                   className="react-resizable-hide"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": true,
@@ -13012,6 +13272,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item static static cssTransforms react-resizable-hide react-resizable"
+                    direction="ltr"
                     key="10"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -13124,6 +13385,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 70px; position: absolute; transform: translate(222px,170px);"
                     >
                       <span
@@ -13145,6 +13407,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -13186,6 +13449,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="11"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -13296,6 +13560,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 110px; position: absolute; transform: translate(645px,250px);"
                     >
                       <span
@@ -13317,6 +13582,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -13358,6 +13624,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="12"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -13468,6 +13735,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 150px; position: absolute; transform: translate(857px,330px);"
                     >
                       <span
@@ -13489,6 +13757,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -13530,6 +13799,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="13"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -13640,6 +13910,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 190px; position: absolute; transform: translate(10px,210px);"
                     >
                       <span
@@ -13661,6 +13932,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -13702,6 +13974,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="14"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -13812,6 +14085,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 70px; position: absolute; transform: translate(433px,210px);"
                     >
                       <span
@@ -13833,6 +14107,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -13874,6 +14149,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="15"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -13984,6 +14260,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 110px; position: absolute; transform: translate(645px,370px);"
                     >
                       <span
@@ -14005,6 +14282,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -14046,6 +14324,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="16"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -14156,6 +14435,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 190px; position: absolute; transform: translate(1068px,810px);"
                     >
                       <span
@@ -14177,6 +14457,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -14218,6 +14499,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="17"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -14328,6 +14610,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 70px; position: absolute; transform: translate(222px,250px);"
                     >
                       <span
@@ -14349,6 +14632,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -14390,6 +14674,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="18"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -14500,6 +14785,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 110px; position: absolute; transform: translate(433px,290px);"
                     >
                       <span
@@ -14521,6 +14807,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -14562,6 +14849,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="19"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -14672,6 +14960,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 150px; position: absolute; transform: translate(857px,490px);"
                     >
                       <span
@@ -14693,6 +14982,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -14734,6 +15024,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="20"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -14844,6 +15135,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item static static cssTransforms react-resizable-hide react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 190px; position: absolute; transform: translate(1068px,610px);"
                     >
                       <span
@@ -14868,6 +15160,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 <Resizable
                   axis="both"
                   className="react-resizable-hide"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": true,
@@ -14909,6 +15202,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item static static cssTransforms react-resizable-hide react-resizable"
+                    direction="ltr"
                     key="21"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -15021,6 +15315,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 70px; position: absolute; transform: translate(222px,330px);"
                     >
                       <span
@@ -15042,6 +15337,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -15083,6 +15379,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="22"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -15193,6 +15490,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 110px; position: absolute; transform: translate(645px,490px);"
                     >
                       <span
@@ -15214,6 +15512,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -15255,6 +15554,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="23"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}
@@ -15365,6 +15665,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                   {
                     "current": <div
                       class="react-grid-item react-draggable cssTransforms react-resizable"
+                      direction="ltr"
                       style="width: 202px; height: 150px; position: absolute; transform: translate(857px,650px);"
                     >
                       <span
@@ -15386,6 +15687,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
               >
                 <Resizable
                   axis="both"
+                  direction="ltr"
                   draggableOpts={
                     {
                       "disabled": false,
@@ -15427,6 +15729,7 @@ exports[`Lifecycle tests <ResponsiveReactGridLayout> Basic Render 1`] = `
                 >
                   <div
                     className="react-grid-item react-draggable cssTransforms react-resizable"
+                    direction="ltr"
                     key="24"
                     onMouseDown={[Function]}
                     onMouseUp={[Function]}

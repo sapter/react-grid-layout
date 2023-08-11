@@ -2,7 +2,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { DraggableCore } from "react-draggable";
-import { Resizable } from "react-resizable";
+import { Resizable } from "@sapter/react-resizable";
 import { fastPositionEqual, perc, setTopLeft, setTransform } from "./utils";
 import {
   calcGridItemPosition,
@@ -20,6 +20,7 @@ import clsx from "clsx";
 import type { Element as ReactElement, Node as ReactNode } from "react";
 
 import type {
+  Direction,
   ReactDraggableCallbackData,
   GridDragEvent,
   GridResizeEvent,
@@ -64,6 +65,7 @@ type Props = {
   usePercentages?: boolean,
   transformScale: number,
   droppingPosition?: DroppingPosition,
+  transformDirection?: Direction,
 
   className: string,
   style?: Object,
@@ -179,6 +181,7 @@ export default class GridItem extends React.Component<Props, State> {
     // Use CSS transforms instead of top/left
     useCSSTransforms: PropTypes.bool.isRequired,
     transformScale: PropTypes.number,
+    transformDirection: PropTypes.oneOf(["ltr", "rtl"]),
 
     // Others
     className: PropTypes.string,
@@ -305,18 +308,22 @@ export default class GridItem extends React.Component<Props, State> {
    * left is relative to the item itself, not its container! So we cannot use them on the server rendering pass.
    *
    * @param  {Object} pos Position object with width, height, left, top.
+   * @param  {String} transformDirection Direction of the transform, "ltr" | "rtl"
    * @return {Object}     Style object.
    */
-  createStyle(pos: Position): { [key: string]: ?string } {
+   createStyle(
+    pos: Position,
+    transformDirection?: Direction
+  ): { [key: string]: ?string } {
     const { usePercentages, containerWidth, useCSSTransforms } = this.props;
 
     let style;
     // CSS Transforms support (default)
     if (useCSSTransforms) {
-      style = setTransform(pos);
+      style = setTransform(pos, transformDirection);
     } else {
       // top,left (slow)
-      style = setTopLeft(pos);
+      style = setTopLeft(pos, transformDirection);
 
       // This is used for server rendering.
       if (usePercentages) {
@@ -414,6 +421,7 @@ export default class GridItem extends React.Component<Props, State> {
         transformScale={transformScale}
         resizeHandles={resizeHandles}
         handle={resizeHandle}
+        direction={this.props.transformDirection}
       >
         {child}
       </Resizable>
@@ -426,7 +434,7 @@ export default class GridItem extends React.Component<Props, State> {
    * @param  {Object} callbackData  an object with node, delta and position information
    */
   onDragStart: (Event, ReactDraggableCallbackData) => void = (e, { node }) => {
-    const { onDragStart, transformScale } = this.props;
+    const { onDragStart, transformScale, transformDirection } = this.props;
     if (!onDragStart) return;
 
     const newPosition: PartialPosition = { top: 0, left: 0 };
@@ -436,11 +444,15 @@ export default class GridItem extends React.Component<Props, State> {
     if (!offsetParent) return;
     const parentRect = offsetParent.getBoundingClientRect();
     const clientRect = node.getBoundingClientRect();
-    const cLeft = clientRect.left / transformScale;
+    const cLeft = transformDirection === 'rtl'
+        ? (parentRect.width - clientRect.left) / transformScale
+        : clientRect.left / transformScale;
     const pLeft = parentRect.left / transformScale;
     const cTop = clientRect.top / transformScale;
     const pTop = parentRect.top / transformScale;
-    newPosition.left = cLeft - pLeft + offsetParent.scrollLeft;
+    newPosition.left = transformDirection === 'rtl'
+        ? cLeft + pLeft + offsetParent.scrollLeft - clientRect.width
+        : cLeft - pLeft + offsetParent.scrollLeft;
     newPosition.top = cTop - pTop + offsetParent.scrollTop;
     this.setState({ dragging: newPosition });
 
@@ -469,14 +481,17 @@ export default class GridItem extends React.Component<Props, State> {
     e,
     { node, deltaX, deltaY }
   ) => {
-    const { onDrag } = this.props;
+    const { onDrag, transformDirection } = this.props;
     if (!onDrag) return;
 
     if (!this.state.dragging) {
       throw new Error("onDrag called before onDragStart.");
     }
     let top = this.state.dragging.top + deltaY;
-    let left = this.state.dragging.left + deltaX;
+
+    let left = transformDirection === 'rtl'
+      ? this.state.dragging.left - deltaX
+      : this.state.dragging.left + deltaX;
 
     const { isBounded, i, w, h, containerWidth } = this.props;
     const positionParams = this.getPositionParams();
@@ -623,7 +638,8 @@ export default class GridItem extends React.Component<Props, State> {
       isDraggable,
       isResizable,
       droppingPosition,
-      useCSSTransforms
+      useCSSTransforms,
+      transformDirection
     } = this.props;
 
     const pos = calcGridItemPosition(
@@ -656,7 +672,7 @@ export default class GridItem extends React.Component<Props, State> {
       style: {
         ...this.props.style,
         ...child.props.style,
-        ...this.createStyle(pos)
+        ...this.createStyle(pos, transformDirection)
       }
     });
 

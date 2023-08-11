@@ -221,6 +221,11 @@ declare namespace ReactGridLayout {
     transformScale?: number | undefined;
 
     /**
+     * Direction
+     */
+    transformDirection?: "rtl" | "ltr";
+
+    /**
      * If true, grid can be placed one over the other.
      */
     allowOverlap?: boolean | undefined;
